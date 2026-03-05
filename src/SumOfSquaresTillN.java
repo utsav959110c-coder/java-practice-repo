@@ -5,10 +5,10 @@ public class SumOfSquaresTillN {
         //sum of squares till n
 
           int sum=0;
-          for( int n=1; n<=10; n++){
-              sum=sum+n;
+          for( int n=2; n<=10; n=n+2){
+              sum=sum+n*n;
 
-              System.out.println(sum*sum);
+              System.out.println(sum);
           }
 
     }
