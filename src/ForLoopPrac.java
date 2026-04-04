@@ -2,9 +2,9 @@ public class ForLoopPrac {
 
     static void main() {
 
-        for( int i=1; i<=10; i=i+2 ){
+        for( int i=1; i<=10; i=i+1 ){
 
-            System.out.print(i);
+            System.out.println(i);
         }
 
     }
